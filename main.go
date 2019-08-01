@@ -9,7 +9,7 @@ import (
 func main() {
 	message := os.Getenv("MESSAGE")
 	if message == "" {
-		message = "I was built and deployed by Concourse"
+		message = "I was built and deployed by Concourse!"
 	}
 
 	m := martini.Classic()
