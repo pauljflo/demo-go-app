@@ -1,5 +1,5 @@
 FROM golang
 
-COPY ../deploy-s3-bucket/main .
+COPY ./main .
 
 CMD ["main"]
